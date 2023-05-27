@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.kurumsalAlici.detaylar.AsusRogActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@id/llBottomDetails"
+
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivDetails"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/asus_pc"
+                app:layout_constraintBottom_toTopOf="@id/llBottomDetails"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/llBottomDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="1"
+        android:elevation="10dp"
+
+        android:background="@drawable/custom_bnv"
+        >
+
+        <TextView
+            android:id="@+id/tvDetailsProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asus Rog Strix G15 6.Nesil Ryzen 7 6800H-RTX3060 6Gb-16Gb-1Tb Ssd-15.6inc-W11"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/tvDetailsProductDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:text="ASUS G513RM-HQ163W NOTEBOOK    Rekabette Öne Geç!   Odaklanmış ateş gücü, ROG Strix G15'deki temel oyun deneyimini kolaylaştırır ve yükseltir. Güçlü bir AMD Ryzen™ 7 6800H CPU ve GeForce RTX™ 3060 GPU ile oyunlardan çoklu göreve kadar her şey hızlı ve akıcıdır. 300Hz/3ms'ye kadar rekabet sınıfı bir ekranla tam gaz espor hızında gidin. Adaptive-Sync, oyunu son derece akıcı hale getirirken, gelişmiş termal yükseltmeler baskı altında sakin kalmanıza yardımcı olur. Oyununuz ne olursa olsun, mükemmel oyununuzu başarabilirsiniz. TASARIM Önceki nesillere göre %7'ye kadar daha küçük ve daha taşınabilir olan bir kasa üzerinde istediğiniz yerde oynayın. İnce kesikler ve simgeler dış cepheyi süslüyor ve hatta dizüstü bilgisayarın altına entrika ekleyerek sistemi her açıdan ayırıyor. Arkadan aydınlatmalı klavyedeki metalik ROG logosundan sarmalayan ışık çubuğuna kadar parlayan Aura Sync vurgularla ortamınızı aydınlatın.PERFORMANS En yeni işlemciler oyun, çoklu görev ve daha fazlasını ortadan kaldırmak için bir araya geliyor. Bir GeForce RTX™ 3060 GPU'ya kadar olan NVIDIA grafikleri, sorunsuz kare hızları sağlarken, hız aşırtılabilir AMD Ryzen™ 7 6800H CPU'ya kadar ağır yükler için güç sağlar. 16GB'a kadar yüksek performanslı DDR4-3200 RAM ile donanmış olarak, sorunsuz bir şekilde oyun oynayabilir, yayın yapabilirsiniz. 1 TB'a kadar NVMe SSD depolama sayesinde oyunlar ve uygulamalar için yükleme sürelerini hızlandırır ve ikinci bir M.2 yuvası, koleksiyonunuzu genişletmek için başka bir sürücü eklemenize olanak tanır. SOĞUTMA Daha sessiz, daha etkili soğutma ile düşük profil tutun. Sıvı metal termal bileşik, CPU'dan daha fazla ısı çeker. Arc Flow fanlarının her biri, daha az türbülansla daha fazla havayı iten yeni bir tasarıma sahip 84 kanadı döndürür. Hava, ısıyı hızla dışarı atmak için 4 adede kadar soğutucu ve fan çıkışından geçer.SES İkiz Smart Amp hoparlörler, netliği en üst düzeye çıkarmak için sesi doğrudan size gönderir. Dolby Atmos tarafından desteklenen sanal 5.1.2 kanallı surround sesi deneyimlemek için kulaklıkları takın ve hareketin merkezinde olun. Çift Yönlü Yapay Zeka Gürültü Engelleme, gelen ve giden sesten istenmeyen gürültüyü ortadan kaldırarak ekibinizin sohbetini, akışını ve diğer iletişimlerini kristal netliğinde yapar. BATARYA Yüksek kapasiteli 90 Wh pil ile hareket halindeyken fişini çekin ve daha fazlasını yapın. Uyumlu güç paketlerinden C Tipi şarj ile pilinizin ömrünü duvar prizlerinden uzakta uzatın. Web'de gezinme ve video akışı gibi günlük etkinlikler için, 100 W'a kadar daha küçük bir USB-C adaptörüyle çalışabilir ve dizüstü bilgisayarınız ve telefonunuz için tek bir şarj cihazıyla daha da hafif seyahat edebilirsiniz.KLAVYE Hassasiyet ve içgüdü, masaüstünden esinlenen klavyeyi tanımlar. Beş özel kısayol tuşu, sık kullanılan kontrolleri erişilebilecek bir yere koyar, böylece eylemin akışında kalırken hızlı ayarlamalar yapabilirsiniz. Daha büyük, izole edilmiş oklar ve iyi aralıklı işlev tuşları, daha sezgisel ve doğru bir şekilde gezinmenizi sağlar. Anahtar başına RGB aydınlatma ile önemli komutları vurgulayın"
+            android:padding="3dp"
+            android:textColor="@color/greyishtext"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fiyat"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:textColor="@color/greyishtext"
+                    />
+
+                <TextView
+                    android:id="@+id/tvDetailsProductPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="37999 TL"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDetailsAddToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sepete Ekle"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:padding="15dp"
+                android:background="@drawable/custom_button"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

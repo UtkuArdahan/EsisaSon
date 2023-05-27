@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.bireyselAlici.OyuncakBireyselActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_goneMarginBottom="0dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/samsung_airpods" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Samsung Buds 2 Siyah R177 Kablosuz Kulaklık"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Kulaklık Tipi: Kanal İçiKullanım Alanı: Müzik TelefonUyumluluk:Android IOSSesli Asistan Desteği:VarSesli Asistan Özelliği:Bixby AsistanSensör: Dokunmatik Sensör Hall Sensörü Hareket Sensörü Jiroskop Konuşma Algılama Sensörü Yakınlık SensörüÖzellikler: Derin Bas Dolby Atmos Dolby Head Tracking Güçlü Bas Ortam Sesi ModuSes Çıkışı: StereoÇevresel Ses:VarÇevresel Ses Özelliği:360 AudioGürültü Engelleme:Aktif Gürültü ÖnlemeSürücü Çapı: 11 mmSürücü Özellikleri: Dinamik SürücülüBağlantı Tipi: Tam KablosuzBluetooth: VarBluetooth Standardı: 5.0Bluetooth Profili:A2DP AVRCP HFPBluetooth Özellikleri: AAC SBCNFC: YokÇoklu Bağlantı: VarKullanım Süresi (Genel):8 saatKullanım Süresi (Yoğun): 5 saatKullanım Süresi (Şarj Kutusu): 20 saatŞarj Tipi:Kablosuz Şarj KutusuHızlı Şarj: VarHızlı Şarj Süresi:5 dkHızlı Şarj Kullanım Süresi:1 saAkustik Yapı: KapalıMikrofon:VarMikrofon Özelliği: Gürültü Engelleyici Mikrofon 6 MikrofonluKumanda: VarKumanda İşlevi: Çağrı Kontrol Müzik KontrolAğırlık:10 gAğırlık (Şarj Kutusu):41.2 g"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1399 TL" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim1"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/stefanzweig_kitap" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Halk Kitabevi Stefan Zweig Seçme Eserleri - 5 Kitap"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Stefan Zweig Seçme Eserleri - 5 Kitap 1- Satranç - 96 Sayfa2- Bilinmeyen Bir Kadının Mektubu - 80 Sayfa3- Olağanüstü Bir Gece - 112 Sayfa4- Bir Kadının Hayatından 24 Saat - 120 Sayfa5- Korku - 112 Sayfa"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="110 TL" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/calvin_kadinomuzcanta" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Calvin Klein Siyah Kadın 15,5x21x9 Mıknatıslı Omuz Çantas"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Calvin Klein Siyah Kadın 15,5x21x9 Mıknatıslı Omuz Çantası Cinsiyet:Kadın "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3250 TL" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim3"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/asus_pc" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Asus Rog Strix G15 6.Nesil Ryzen 7 6800H-RTX3060 6Gb-16Gb-1Tb Ssd-15.6inc-W11 "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="ASUS G513RM-HQ163W NOTEBOOK    Rekabette Öne Geç!   Odaklanmış ateş gücü, ROG Strix G15'deki temel oyun deneyimini kolaylaştırır ve yükseltir. Güçlü bir AMD Ryzen™ 7 6800H CPU ve GeForce RTX™ 3060 GPU ile oyunlardan çoklu göreve kadar her şey hızlı ve akıcıdır. 300Hz/3ms'ye kadar rekabet sınıfı bir ekranla tam gaz espor hızında gidin. Adaptive-Sync, oyunu son derece akıcı hale getirirken, gelişmiş termal yükseltmeler baskı altında sakin kalmanıza yardımcı olur. Oyununuz ne olursa olsun, mükemmel oyununuzu başarabilirsiniz. TASARIM Önceki nesillere göre %7'ye kadar daha küçük ve daha taşınabilir olan bir kasa üzerinde istediğiniz yerde oynayın. İnce kesikler ve simgeler dış cepheyi süslüyor ve hatta dizüstü bilgisayarın altına entrika ekleyerek sistemi her açıdan ayırıyor. Arkadan aydınlatmalı klavyedeki metalik ROG logosundan sarmalayan ışık çubuğuna kadar parlayan Aura Sync vurgularla ortamınızı aydınlatın.PERFORMANS En yeni işlemciler oyun, çoklu görev ve daha fazlasını ortadan kaldırmak için bir araya geliyor. Bir GeForce RTX™ 3060 GPU'ya kadar olan NVIDIA grafikleri, sorunsuz kare hızları sağlarken, hız aşırtılabilir AMD Ryzen™ 7 6800H CPU'ya kadar ağır yükler için güç sağlar. 16GB'a kadar yüksek performanslı DDR4-3200 RAM ile donanmış olarak, sorunsuz bir şekilde oyun oynayabilir, yayın yapabilirsiniz. 1 TB'a kadar NVMe SSD depolama sayesinde oyunlar ve uygulamalar için yükleme sürelerini hızlandırır ve ikinci bir M.2 yuvası, koleksiyonunuzu genişletmek için başka bir sürücü eklemenize olanak tanır. SOĞUTMA Daha sessiz, daha etkili soğutma ile düşük profil tutun. Sıvı metal termal bileşik, CPU'dan daha fazla ısı çeker. Arc Flow fanlarının her biri, daha az türbülansla daha fazla havayı iten yeni bir tasarıma sahip 84 kanadı döndürür. Hava, ısıyı hızla dışarı atmak için 4 adede kadar soğutucu ve fan çıkışından geçer.SES İkiz Smart Amp hoparlörler, netliği en üst düzeye çıkarmak için sesi doğrudan size gönderir. Dolby Atmos tarafından desteklenen sanal 5.1.2 kanallı surround sesi deneyimlemek için kulaklıkları takın ve hareketin merkezinde olun. Çift Yönlü Yapay Zeka Gürültü Engelleme, gelen ve giden sesten istenmeyen gürültüyü ortadan kaldırarak ekibinizin sohbetini, akışını ve diğer iletişimlerini kristal netliğinde yapar. BATARYA Yüksek kapasiteli 90 Wh pil ile hareket halindeyken fişini çekin ve daha fazlasını yapın. Uyumlu güç paketlerinden C Tipi şarj ile pilinizin ömrünü duvar prizlerinden uzakta uzatın. Web'de gezinme ve video akışı gibi günlük etkinlikler için, 100 W'a kadar daha küçük bir USB-C adaptörüyle çalışabilir ve dizüstü bilgisayarınız ve telefonunuz için tek bir şarj cihazıyla daha da hafif seyahat edebilirsiniz.KLAVYE Hassasiyet ve içgüdü, masaüstünden esinlenen klavyeyi tanımlar. Beş özel kısayol tuşu, sık kullanılan kontrolleri erişilebilecek bir yere koyar, böylece eylemin akışında kalırken hızlı ayarlamalar yapabilirsiniz. Daha büyük, izole edilmiş oklar ve iyi aralıklı işlev tuşları, daha sezgisel ve doğru bir şekilde gezinmenizi sağlar. Anahtar başına RGB aydınlatma ile önemli komutları vurgulayın."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="37999 TL" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim4"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/defacto_erkekcocukgomlek" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Defacto Erkek Çocuk Dik Yaka Keten Görünümlü Uzun Kollu Gömlek"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Pamuklu poplin kumaşı, gömlek yaka, uzun kollu, boydan düğme kapamalı regular fit tek cepli trend tasarımı ile çocuklarınızın severek giyeceği okulda, gezilerde ve özel günlerinde jean pantolon ve bermuda şortlarla kombinleyeceğiniz DeFacto Erkek Çocuk Regular Fit Dik Yaka Poplin Uzun Kollu Gömlek. "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="150 TL" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim5"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/deri_kadinayakkabi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="İlvi Prithu Hakiki Deri Kadın Siyah Loafer Ayakkabı"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="3,5 cm platform taban yüksekliği rahat, hafif taban yapısı ve çıkartılabilir aksesuar detayı ile ister sade ister zincir detaylı konforlu adımlar. Siyah Deri Kadın Loafer Ayakkabı Hakiki Dana Derisinden Yapılmıştır. Taban Yüksekliği 6 cm Eva Taban : Yoğunluğu en düşük poliüretan kullanılır. Hafiftir. El Yapımı Türkiye'de üretilmiştir. Manken üzerinde 38 numara kullanılmıştır."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2600 TL" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim6"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/apple_watch" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Apple Watch Series 8 45mm GPS Gece Yarısı Alüminyum Kasa ve Spor Kordon-Regular"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Marka: Apple Ürün ailesi: Watch Ürün Serisi: Series 8 Ürün adı: Watch Series 8 Ürün kodu: MNP13TU/A EAN/UPC kodu: 0194253149309  Akıllı saat Dijital Dokunmatik ekran OLED 396 x 484 Piksel 1000 cd/m² Toza dayanıklı IP6X Su geçirmeme derecesi: 50 m Dahili mikrofon Gömme hoparlörler Kalp frekans monitörü Hız ölçer Jiroskop Aktivite izleyici Apple Siri GPS BeiDou GLONASS Galileo Yarı-Zenit Uydu Sistemi (QZSS) Wi-Fi Bluetooth 5.0 Yakın Alan İletişimi Lityum-İyon (Li-Ion) 18 Saat"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="match_parent"
+                        android:layout_height="59dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim7"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/gs_erkektshirt" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Galatasaray Orijinal Siyah Erkek T-shirt GS "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Galatasaray Orijinal Lisanslı Erkek T-Shirt Galatasarayın Asil armasına sahip T-Shirtlerimizin göğsünüzde gururla taşıyacaksınız. Mağazamızda size sunduğumuz tüm ürünler orijinal ve lisanlıdır. Siparişleriniz kapalı paketli olarak hediye paketiyle gönderilir. Ürün etiketinde orijinal olduğunu gösteren 7 renkli hologram mevcuttur. Marka: GsStore Kumaş İçerik: %100 Pamuk Talimatlar: Ürün üzerindeki baskı ve işlemelerin daha uzun sürece kalıcı olması için 30 derece sıcaklıkta tersten yıkamanız önerilir."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="400 TL" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim8"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/iphone11" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="iPhone 11 128 Gb Akıllı Telefon Beyaz "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Ürün Açıklama"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="19799 TL" />
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim9"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/kizcocuk_sweatshirt" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="GAP Kız Çocuk Pembe Logo Fermuarlı Havlu Kumaş Sweatshir"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Eşofman Üst Fransız havlu kumaşı sayesinde yumuşak.|Kapüşonlu ve fermuarlı|Önde Gap logo aplikleri|Kanguru cepli|#842448 Düz ve rahat kesim|Bel hizasına isabet eder 77 % pamuk, %14 polyester, %9 geri dönüştürülmüş polyester."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="849 TL" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim10"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/altus_buzdolabi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Altus ALK 471 XI 514 Lt No Frost Buzdolabı  "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Ürün Özellikleri Ürün Rengi İnoks Toplam Hacim (L) 514 L Toplam Dondurucu Bölme Sayısı 3 Dondurucu Çekmece Sayısı 3 Tatil Modu Var Elektronik Gösterge Var Şarj (kg) 0.060 Hızlı Dondurma Var Hızlı Soğutma Var Kontrol Sistemi Elektronik 0°c Bölmesi Var Eco Modu Var Soğutma Sistemi No Frost Kapı Yönü Çevirebilme Var Kapı Açık Alarmı Var Aydınlatma Tipi Tavandan LED ( power led ) Sebzelik Adedi 1 Buzluk Tipi Kapaklı buzluk (x1) - Buz hazneli Günlük Buz Yapma Kapasitesi (kg) 1 Derinlik 74.5 cm Genişlik 70.0 cm Yükseklik 192.0 cm Bu üründen en fazla 1 adet sipariş verilebilir. 1 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar. Kampanya fiyatından satılmak üzere 10 adetten fazla stok sunulmuştur. İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir. Bir ürün, birden fazla satıcı tarafından satılabilir. Birden fazla satıcı tarafından satışa sunulan ürünlerin satıcıları ürün için belirledikleri fiyata, satıcı puanlarına, teslimat statülerine, ürünlerdeki promosyonlara, kargonun bedava olup olmamasına ve ürünlerin hızlı teslimat ile teslim edilip edilememesine, ürünlerin stok ve kategorileri bilgilerine göre sıralanmaktadır. "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="15200 TL" />
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim11"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/nike_kadincanta" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Nike Heritage"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Nike Heritage Bkpk Unisex Sırt Çantası DC4244-824-PEMBE"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="700 TL" />
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim12"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/ps5" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Sony Playstation 5 825 GB Dijital Sürüm"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Playstation 5 825 GB Dijital Sürüm - Türkçe Menü + 2. PS5 DualSense "
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="15750 TL" />
+
+                    <Button
+                        android:id="@+id/button15"
+                        android:layout_width="match_parent"
+                        android:layout_height="63dp"
+                        android:paddingEnd="10dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim13"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/puma_erkekayakkabi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Puma  - X-ray 2 Square Ayakkabı"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="373108_39-ÜRÜN HİKAYESİ Moda öncüsü spor ayakkabı meraklıları için bakışlarımızı 2000'lerin başına, meşhur X-Ray'imize çeviriyoruz. Bu ayakkabı modaya uygun kalın detayları, karışık materyalleri ve gösterişli kalıp sistemi ile moda evriminin geleceği. ÖZELLİKLER + FAYDALAR IMEVA: PUMA orta taban tüy gibi hafif ve rahat SoftFoam+: PUMA'nın her adımda yumuşak yastıklama sağlayan, giyer giymez uzun süreli konfor sunan çorap astarı DETAYLAR Kısa boy bilek yapısı Ağ dokulu, süet ve sentetik deri dış yüzey Kauçuk taban Bağcıklı tasarım Dilde PUMA No.1 Logosu Yanda PUMA No. 2 Logosu Yanda PUMA Formstrip deseni"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1645 TL" />
+
+                    <Button
+                        android:id="@+id/button16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="0dp"
+                        android:text="sepete ekle"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

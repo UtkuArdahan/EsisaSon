@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.kurumsalAlici.kurumsalalicibilgisayarsayfasi.KurumsalAliciBilgisayarActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    app:layout_goneMarginBottom="0dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/asus_pc" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Asus Rog Strix G15 6.Nesil Ryzen 7 6800H-RTX3060 6Gb-16Gb-1Tb Ssd-15.6inc-W11 "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="ASUS G513RM-HQ163W NOTEBOOK    Rekabette Öne Geç!   Odaklanmış ateş gücü, ROG Strix G15'deki temel oyun deneyimini kolaylaştırır ve yükseltir. Güçlü bir AMD Ryzen™ 7 6800H CPU ve GeForce RTX™ 3060 GPU ile oyunlardan çoklu göreve kadar her şey hızlı ve akıcıdır. 300Hz/3ms'ye kadar rekabet sınıfı bir ekranla tam gaz espor hızında gidin. Adaptive-Sync, oyunu son derece akıcı hale getirirken, gelişmiş termal yükseltmeler baskı altında sakin kalmanıza yardımcı olur. Oyununuz ne olursa olsun, mükemmel oyununuzu başarabilirsiniz. TASARIM Önceki nesillere göre %7'ye kadar daha küçük ve daha taşınabilir olan bir kasa üzerinde istediğiniz yerde oynayın. İnce kesikler ve simgeler dış cepheyi süslüyor ve hatta dizüstü bilgisayarın altına entrika ekleyerek sistemi her açıdan ayırıyor. Arkadan aydınlatmalı klavyedeki metalik ROG logosundan sarmalayan ışık çubuğuna kadar parlayan Aura Sync vurgularla ortamınızı aydınlatın.PERFORMANS En yeni işlemciler oyun, çoklu görev ve daha fazlasını ortadan kaldırmak için bir araya geliyor. Bir GeForce RTX™ 3060 GPU'ya kadar olan NVIDIA grafikleri, sorunsuz kare hızları sağlarken, hız aşırtılabilir AMD Ryzen™ 7 6800H CPU'ya kadar ağır yükler için güç sağlar. 16GB'a kadar yüksek performanslı DDR4-3200 RAM ile donanmış olarak, sorunsuz bir şekilde oyun oynayabilir, yayın yapabilirsiniz. 1 TB'a kadar NVMe SSD depolama sayesinde oyunlar ve uygulamalar için yükleme sürelerini hızlandırır ve ikinci bir M.2 yuvası, koleksiyonunuzu genişletmek için başka bir sürücü eklemenize olanak tanır. SOĞUTMA Daha sessiz, daha etkili soğutma ile düşük profil tutun. Sıvı metal termal bileşik, CPU'dan daha fazla ısı çeker. Arc Flow fanlarının her biri, daha az türbülansla daha fazla havayı iten yeni bir tasarıma sahip 84 kanadı döndürür. Hava, ısıyı hızla dışarı atmak için 4 adede kadar soğutucu ve fan çıkışından geçer.SES İkiz Smart Amp hoparlörler, netliği en üst düzeye çıkarmak için sesi doğrudan size gönderir. Dolby Atmos tarafından desteklenen sanal 5.1.2 kanallı surround sesi deneyimlemek için kulaklıkları takın ve hareketin merkezinde olun. Çift Yönlü Yapay Zeka Gürültü Engelleme, gelen ve giden sesten istenmeyen gürültüyü ortadan kaldırarak ekibinizin sohbetini, akışını ve diğer iletişimlerini kristal netliğinde yapar. BATARYA Yüksek kapasiteli 90 Wh pil ile hareket halindeyken fişini çekin ve daha fazlasını yapın. Uyumlu güç paketlerinden C Tipi şarj ile pilinizin ömrünü duvar prizlerinden uzakta uzatın. Web'de gezinme ve video akışı gibi günlük etkinlikler için, 100 W'a kadar daha küçük bir USB-C adaptörüyle çalışabilir ve dizüstü bilgisayarınız ve telefonunuz için tek bir şarj cihazıyla daha da hafif seyahat edebilirsiniz.KLAVYE Hassasiyet ve içgüdü, masaüstünden esinlenen klavyeyi tanımlar. Beş özel kısayol tuşu, sık kullanılan kontrolleri erişilebilecek bir yere koyar, böylece eylemin akışında kalırken hızlı ayarlamalar yapabilirsiniz. Daha büyük, izole edilmiş oklar ve iyi aralıklı işlev tuşları, daha sezgisel ve doğru bir şekilde gezinmenizi sağlar. Anahtar başına RGB aydınlatma ile önemli komutları vurgulayın."
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3799 TL" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:background="@android:color/darker_gray"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim1"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/bilgisayar_acer" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="ACER Aspire3 Intel Core i5-1135G7 8GB 256GB SSD 15,6 FHD DOS Dizüstü Bilgisayar (ACER Türkiye Garantili)"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="Nesil
+İşlemci Çekirdek Sayısı
+4
+Hard Disk Kapasitesi
+HDD Yok
+Dokunmatik Ekran
+Yok
+Panel Tipi
+IPS
+Ram (Sistem Belleği) Tipi
+DDR4
+Renk
+Gümüş
+Garanti Tipi
+ACER Türkiye Garantili
+Temel İşlemci Hızı (GHz)
+2.4
+Maksimum İşlemci Hızı (GHz)
+4.2
+Optik Sürücü Tipi
+Yok
+Bağlantılar
+Bluetooth
+Klavye
+Q Türkçe
+Ekran Kartı Bellek Tipi
+Belirtilmemiş
+Çözünürlük Standartı
+Full HD (FHD)
+Garanti Süresi
+2 Yıl
+Kapasite
+Yok"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="8799 TL" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="0dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/bilgisayar_monster" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="Monster Abra A5 V17.3.4 Intel Core i7 11800H 32GB RAM 1 TB SSD RTX 3050 Ti FreeDOS 15,6 inç FHD 144 Hz ABRA A5 V17.3.4"
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="İşlemci Tipi
+Intel Core i7
+Ram (Sistem Belleği)
+32 GB
+SSD Kapasitesi
+1 TB
+İşletim Sistemi
+Free Dos
+Çözünürlük
+1920 x 1080
+Ekran Yenileme Hızı
+144 Hz
+Ekran Kartı
+Nvidia GeForce RTX 3050 Ti
+Ekran Boyutu
+15,6 inç"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="21999 TL" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/arkaplan"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <ImageButton
+                    android:id="@+id/kartResim3"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/bilgisayar_msi" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kartAdi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="1"
+                        android:text="MSI TITAN GT77HX 13VI-069TR I9-13980HX 128GB DDR5 RTX4090 GDDR6 16GB 4TB SSD 17.3 UHD 144Hz W11
+﻿
+CixEd
+CixEd#0726 "
+                        android:textColor="#000000"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/kartAciklama3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:maxLines="3"
+                        android:text="İşlemci Tipi
+Intel Core i9
+Ram (Sistem Belleği)
+128 GB
+SSD Kapasitesi
+4 TB
+İşletim Sistemi
+Windows
+Çözünürlük
+3840 x 2160
+Ekran Yenileme Hızı
+144 Hz
+Ekran Kartı
+Nvidia GeForce RTX 4090
+Ekran Boyutu
+17,3 inç"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="169999 TL" />
+
+                    <Button
+                        android:id="@+id/button6"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:text="sepete ekle" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

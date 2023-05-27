@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.bireyselAlici.detaylar.AcerActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@id/llBottomDetails"
+
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivDetails"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:padding="20dp"
+                android:src="@drawable/bilgisayar_acer"
+                app:layout_constraintBottom_toTopOf="@id/llBottomDetails"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/llBottomDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="1"
+        android:elevation="10dp"
+
+        android:background="@drawable/custom_bnv"
+        >
+
+        <TextView
+            android:id="@+id/tvDetailsProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACER Aspire3 Intel Core i5-1135G7 8GB 256GB SSD 15,6 FHD DOS Dizüstü Bilgisayar (ACER Türkiye Garantili)"
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/tvDetailsProductDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:text="Nesil
+İşlemci Çekirdek Sayısı
+4
+Hard Disk Kapasitesi
+HDD Yok
+Dokunmatik Ekran
+Yok
+Panel Tipi
+IPS
+Ram (Sistem Belleği) Tipi
+DDR4
+Renk
+Gümüş
+Garanti Tipi
+ACER Türkiye Garantili
+Temel İşlemci Hızı (GHz)
+2.4
+Maksimum İşlemci Hızı (GHz)
+4.2
+Optik Sürücü Tipi
+Yok
+Bağlantılar
+Bluetooth
+Klavye
+Q Türkçe
+Ekran Kartı Bellek Tipi
+Belirtilmemiş
+Çözünürlük Standartı
+Full HD (FHD)
+Garanti Süresi
+2 Yıl
+Kapasite
+Yok"
+            android:padding="3dp"
+            android:textColor="@color/greyishtext"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fiyat"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:textColor="@color/greyishtext"
+                    />
+
+                <TextView
+                    android:id="@+id/tvDetailsProductPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8799 TL"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDetailsAddToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sepete Ekle"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:padding="15dp"
+                android:background="@drawable/custom_button"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

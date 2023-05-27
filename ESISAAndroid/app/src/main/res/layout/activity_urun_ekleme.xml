@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.satici.saticiUrunEkleme.UrunEklemeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/imgAdd"
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                android:src="@android:drawable/ic_menu_gallery" />
+
+            <EditText
+
+                android:id="@+id/txt_productadd_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/input_margin_bottom"
+                android:hint="Ürün İsmi">
+
+
+            </EditText>
+            <EditText
+                android:id="@+id/txt_productadd_price"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="number"
+                android:layout_marginBottom="@dimen/input_margin_bottom"
+                android:hint="Ürün Fiyatı">
+
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/txt_productadd_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minLines="3"
+                android:maxLines="5"
+                android:layout_marginBottom="@dimen/input_margin_bottom"
+                android:hint="Ürün Açıklaması">
+
+
+
+            </EditText>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/butonlistegit"
+                    android:layout_width="139dp"
+                    android:layout_height="59dp"
+                    android:onClick="listegit"
+                    android:text="Kayıtları Göster" />
+
+                <Button
+                    android:id="@+id/productadd_eklebuton"
+                    android:layout_width="136dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="90dp"
+                    android:text="Ürün Ekle" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

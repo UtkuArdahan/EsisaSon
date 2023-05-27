@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".ui.kurumsalAlici.kurumsalAliciKategoriler.KurumsalAliciKategorilerFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/kategoritelefon"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/format_webp"
+                app:layout_constraintBottom_toTopOf="@+id/kategoriayakkabi"
+                app:layout_constraintEnd_toStartOf="@+id/kategoribeyazesya"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kategoribilgisayar" />
+
+            <ImageButton
+                android:id="@+id/kategoribilgisayar"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/pc_kategori"
+                app:layout_constraintBottom_toTopOf="@+id/kategoritelefon"
+                app:layout_constraintEnd_toStartOf="@+id/kategorimoda"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/kategorioyuncak"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/oyuncak"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/kategorikitap"
+                app:layout_constraintTop_toBottomOf="@+id/kategorikozmetik" />
+
+            <ImageButton
+                android:id="@+id/kategorikitap"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kitap"
+                app:layout_constraintEnd_toStartOf="@+id/kategorioyuncak"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kategoriayakkabi" />
+
+            <ImageButton
+                android:id="@+id/kategorikozmetik"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/kisiselbakim"
+                app:layout_constraintBottom_toTopOf="@+id/kategorioyuncak"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/kategoriayakkabi"
+                app:layout_constraintTop_toBottomOf="@+id/kategoribeyazesya" />
+
+            <ImageButton
+                android:id="@+id/kategoriayakkabi"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ayakkabi2"
+                app:layout_constraintBottom_toTopOf="@+id/kategorikitap"
+                app:layout_constraintEnd_toStartOf="@+id/kategorikozmetik"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kategoritelefon" />
+
+            <ImageButton
+                android:id="@+id/kategoribeyazesya"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/beyazesya"
+                app:layout_constraintBottom_toTopOf="@+id/kategorikozmetik"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/kategoritelefon"
+                app:layout_constraintTop_toBottomOf="@+id/kategorimoda" />
+
+            <ImageButton
+                android:id="@+id/kategorimoda"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/modagiyim"
+                app:layout_constraintBottom_toTopOf="@+id/kategoribeyazesya"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/kategoribilgisayar"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</LinearLayout>

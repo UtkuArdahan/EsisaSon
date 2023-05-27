@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ESISAAndroid"
+        tools:targetApi="31">
+        <activity
+            android:name=".XiaomiKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HuaweiKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XaomiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HuaweiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LacosteSportKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LacosteKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NikeDunkKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CkKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JordanKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JordanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PumaXrayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NikeDunkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LacosteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LacosteSportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.MonsterKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.MsiKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.AcerKurActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.MsiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.MonsterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.AcerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.DeriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.StefanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.SamsungActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.PumasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.PsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.IphoneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.GsFormaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.DefactoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.CalvinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.AsusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.AppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.NikeHerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.GapsweatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.detaylar.AlkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.GapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.PumaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.PS5Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.NikeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.AltusAlkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.Iphone11Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.GsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.AppWatchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.DeriKadinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.DefactoCocukActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.AsusRogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.CalvinKleinActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.ZweigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.detaylar.SamsungBudsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.KurumsalBeyazesyaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.KurumsalKitapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.KurumsalKozmetikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.KurumsalOyuncakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.KurumsalTelefonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.KozmetikBireyselActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.KitapBİreyselActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.TelefonBireyselActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.OyuncakBireyselActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.BeyazesyaBireyselActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.satici.saticiUrunGuncelleme.UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.satici.saticiUrunEkleme.UrunEklemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Girisler.bireyselAliciGiris.PsifirlamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.kurumsalalicimoda.KurumsalAliciModaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.kurumsalalicibilgisayarsayfasi.KurumsalAliciBilgisayarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.kurumsalaliciayakkabi.KurumsalAliciAyakkabiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.bireyselalicimodasayfasi.BireyselAliciModaMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.kurumsalAliciUrunDetayi.KurumsalAliciUrunDetayiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.kurumsalAliciUrunListeleme.KurumsalAliciUrunListelemeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.satici.saticianasayfa.SaticiAnasayfaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.kurumsalAliciAnasayfa.KurumsalAliciAnasayfaActivity"
+            android:exported="false"
+            android:label="Anasayfa" />
+        <activity
+            android:name=".ui.bireyselAlici.bireyselAliciAnasayfa.BireyselAliciAnasayfaActivity"
+            android:exported="false"
+            android:label="Anasayfa" />
+        <activity
+            android:name=".ui.uyelikler.bireyselAliciUyelik.BireyselAliciUyelikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.bireyselalicibilgisayarsayfasi.BireyselAliciBilgisayarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.bireyselaliciayakkabisayfasi.BireyselAliciAyakkabiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.satici.saticidestek.SaticiDestekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.kurumsalAliciSiparisEkrani.KurumsalAliciSiparisEkraniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.kurumsalAlici.kurumsalAliciDestek.KurumsalAliciDestekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.satici.saticianasayfa.homeFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.satici.saticiUrunEkleme.addFragment"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.bireyselAliciSiparisEkrani.SiparisekraniActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.bireyselAlici.bireyselAliciDestek.BireyselAliciDestekActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.girisler.bireyselAliciGiris.GirisActivity"
+            android:exported="true"
+            android:label="ESISA">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

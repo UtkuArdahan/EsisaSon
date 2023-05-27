@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.kurumsalAlici.detaylar.AltusAlkActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toTopOf="@id/llBottomDetails"
+
+        tools:ignore="SpeakableTextPresentCheck">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/altus_buzdolabi"
+                app:layout_constraintBottom_toTopOf="@id/llBottomDetails"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/llBottomDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="1"
+        android:elevation="10dp"
+
+        android:background="@drawable/custom_bnv"
+        >
+
+        <TextView
+            android:id="@+id/tvDetailsProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Altus ALK 471 XI 514 Lt No Frost Buzdolabı  "
+            style="@style/TextAppearance.MaterialComponents.Headline5"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/tvDetailsProductDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:text="Ürün Özellikleri Ürün Rengi İnoks Toplam Hacim (L) 514 L Toplam Dondurucu Bölme Sayısı 3 Dondurucu Çekmece Sayısı 3 Tatil Modu Var Elektronik Gösterge Var Şarj (kg) 0.060 Hızlı Dondurma Var Hızlı Soğutma Var Kontrol Sistemi Elektronik 0°c Bölmesi Var Eco Modu Var Soğutma Sistemi No Frost Kapı Yönü Çevirebilme Var Kapı Açık Alarmı Var Aydınlatma Tipi Tavandan LED ( power led ) Sebzelik Adedi 1 Buzluk Tipi Kapaklı buzluk (x1) - Buz hazneli Günlük Buz Yapma Kapasitesi (kg) 1 Derinlik 74.5 cm Genişlik 70.0 cm Yükseklik 192.0 cm Bu üründen en fazla 1 adet sipariş verilebilir. 1 adetin üzerindeki siparişleri Trendyol iptal etme hakkını saklı tutar. Kampanya fiyatından satılmak üzere 10 adetten fazla stok sunulmuştur. İncelemiş olduğunuz ürünün satış fiyatını satıcı belirlemektedir. Bir ürün, birden fazla satıcı tarafından satılabilir. Birden fazla satıcı tarafından satışa sunulan ürünlerin satıcıları ürün için belirledikleri fiyata, satıcı puanlarına, teslimat statülerine, ürünlerdeki promosyonlara, kargonun bedava olup olmamasına ve ürünlerin hızlı teslimat ile teslim edilip edilememesine, ürünlerin stok ve kategorileri bilgilerine göre sıralanmaktadır. "
+            android:padding="3dp"
+            android:textColor="@color/greyishtext"
+            />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fiyat"
+                    android:textSize="16sp"
+                    android:padding="5dp"
+                    android:textColor="@color/greyishtext"
+                    />
+
+                <TextView
+                    android:id="@+id/tvDetailsProductPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15200 TL"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDetailsAddToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sepete Ekle"
+                android:textColor="@color/white"
+                android:layout_gravity="center_vertical"
+                android:padding="15dp"
+                android:background="@drawable/custom_button"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

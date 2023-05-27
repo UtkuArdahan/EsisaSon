@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/anasayfa"
+            android:icon="@drawable/ic_home"
+            android:title="Anasayfa"/>
+        <item android:id="@+id/contact"
+            android:icon="@drawable/baseline_contact_support_24"
+            android:title="Destek"/>
+    </group>
+    <item android:title="Sipariş">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/categories"
+                    android:icon="@drawable/ic_activity"
+                    android:title="Kategoriler"/>
+                <item android:id="@+id/basket"
+                    android:icon="@drawable/baseline_contact_support_24"
+                    android:title="Sepetim"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Profil">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/account"
+                    android:icon="@drawable/baseline_account_circle_24"
+                    android:title="Hesabım"/>
+                <item android:id="@+id/exit"
+                    android:icon="@drawable/baseline_exit_to_app_24"
+                    android:title="Çıkış Yap"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>

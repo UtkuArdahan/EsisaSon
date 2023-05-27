@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.bireyselAlici.bireyselAliciHesabim.BireyselAliciHesabimFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+                <ImageButton
+                    android:id="@+id/kategorimoda"
+                    android:layout_width="356dp"
+                    android:layout_height="160dp"
+                    android:scaleType="center"
+                    android:src="@drawable/baseline_profilephoto_150"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/kategoriayakkabi"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_shopping_basket_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.492"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kategorimoda" />
+
+                <ImageButton
+                    android:id="@+id/kategoribilgisayar"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_favorite_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kategoriayakkabi" />
+
+                <ImageButton
+                    android:id="@+id/kategorioyuncak"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_assessment_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kategoribilgisayar" />
+
+                <ImageButton
+                    android:id="@+id/kategorikozmetik"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_settings_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kategorioyuncak" />
+
+                <ImageButton
+                    android:id="@+id/bireyseladreslerbuton"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_location_on_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/kategorikozmetik" />
+
+                <ImageButton
+                    android:id="@+id/bireyselurunkarsbuton"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/baseline_productcomparison_arrows_100"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bireyseladreslerbuton" />
+
+                <ImageButton
+                    android:id="@+id/bireyseldestekbuton"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitStart"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.492"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bireyselurunkarsbuton"
+                    app:srcCompat="@drawable/baseline_customerservice_100" />
+
+                <ImageButton
+                    android:id="@+id/kategoribeyazesya"
+                    android:layout_width="340dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitEnd"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bireyseldestekbuton"
+                    app:srcCompat="@drawable/baseline_exit_to_app_100" />
+
+                <TextView
+                    android:id="@+id/bireyseladsoyadtxtsatici"
+                    android:layout_width="300dp"
+                    android:layout_height="46dp"
+                    android:layout_marginTop="85dp"
+                    android:fontFamily="sans-serif-black"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/kategorimoda"
+                    app:layout_constraintEnd_toEndOf="@+id/kategorimoda"
+                    app:layout_constraintStart_toStartOf="@+id/kategorimoda"
+                    app:layout_constraintTop_toTopOf="@+id/kategorimoda" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Siparişlerim"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/kategoriayakkabi"
+                    app:layout_constraintEnd_toEndOf="@+id/kategoriayakkabi"
+                    app:layout_constraintStart_toStartOf="@+id/kategoriayakkabi"
+                    app:layout_constraintTop_toBottomOf="@+id/kategorimoda" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="200dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Değerlendirmelerim"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/kategorioyuncak"
+                    app:layout_constraintEnd_toEndOf="@+id/kategorioyuncak"
+                    app:layout_constraintHorizontal_bias="0.635"
+                    app:layout_constraintStart_toStartOf="@+id/kategorioyuncak"
+                    app:layout_constraintTop_toBottomOf="@+id/kategoribilgisayar" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Destek"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/bireyseldestekbuton"
+                    app:layout_constraintEnd_toEndOf="@+id/bireyselurunkarsbuton"
+                    app:layout_constraintStart_toStartOf="@+id/bireyseldestekbuton"
+                    app:layout_constraintTop_toBottomOf="@+id/bireyselurunkarsbuton" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Çıkış yap"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/kategoribeyazesya"
+                    app:layout_constraintEnd_toEndOf="@+id/kategoribeyazesya"
+                    app:layout_constraintStart_toStartOf="@+id/kategoribeyazesya"
+                    app:layout_constraintTop_toTopOf="@+id/kategoribeyazesya" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Ayarlar"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/kategorikozmetik"
+                    app:layout_constraintEnd_toEndOf="@+id/kategorikozmetik"
+                    app:layout_constraintStart_toStartOf="@+id/kategorikozmetik"
+                    app:layout_constraintTop_toBottomOf="@+id/kategorioyuncak" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Adreslerim"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/bireyseladreslerbuton"
+                    app:layout_constraintEnd_toEndOf="@+id/bireyseladreslerbuton"
+                    app:layout_constraintStart_toStartOf="@+id/bireyseladreslerbuton"
+                    app:layout_constraintTop_toBottomOf="@+id/kategorikozmetik" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="162dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
+                    android:text="Favorilerim"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/kategoribilgisayar"
+                    app:layout_constraintEnd_toEndOf="@+id/kategoribilgisayar"
+                    app:layout_constraintStart_toStartOf="@+id/kategoribilgisayar"
+                    app:layout_constraintTop_toBottomOf="@+id/kategoriayakkabi" />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="200dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="Ürün Karşılaştırmaları"
+                    android:textColor="#000000"
+                    android:textSize="22sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/bireyselurunkarsbuton"
+                    app:layout_constraintEnd_toEndOf="@+id/bireyselurunkarsbuton"
+                    app:layout_constraintStart_toStartOf="@+id/bireyselurunkarsbuton"
+                    app:layout_constraintTop_toBottomOf="@+id/bireyseladreslerbuton" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
